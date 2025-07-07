@@ -1,7 +1,9 @@
-# Twitter Sentiment Analysis
+Project Overview: Twitter Sentiment Classification
+Natural Language Processing (NLP) is one of the most active and impactful areas of research in data science today. Among its many applications, sentiment analysis stands out as a powerful tool used across industries — from measuring public opinion to shaping targeted marketing strategies. As such, it has become a core skill for aspiring data scientists.
 
-Natural Language Processing (NLP) is a hotbed of research in data science these days and one of the most common applications of NLP is sentiment analysis. From opinion polls to creating entire marketing strategies, this domain has completely reshaped the way businesses work, which is why this is an area every data scientist must be familiar with.
+In this project, we tackle a real-world text classification problem using Twitter data. The objective is to develop a machine learning model that can automatically detect whether a tweet contains racist or sexist content. Given the vast volume of social media data generated daily, manual moderation is impractical. NLP offers a scalable, efficient solution.
 
-Thousands of text documents can be processed for sentiment (and other features including named entities, topics, themes, etc.) in seconds, compared to the hours it would take a team of people to manually complete the same task.
+The dataset used in this project is sourced from (https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis/)
+. It contains labeled tweets that allow us to train and evaluate our model's ability to classify text based on sentiment and discriminatory content.
 
-This project is an attempt to solve the problem of text classification on twitter text datas— the task is to predict whether a tweet is racist/sexist or not. The data has been downloaded from Analytics Vidhya (https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis/)
+By automating this kind of analysis, we not only improve processing speed — handling thousands of tweets in seconds — but also contribute to efforts in moderating harmful content and promoting safer digital environments.
